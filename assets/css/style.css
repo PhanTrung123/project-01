@@ -11,6 +11,12 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+html,
+body {
+  /* cuộn mượt mà */
+  scroll-behavior: smooth;
+}
+
 /* Common (thành phần dùng chung) */
 :root {
   --background-color: #e6f0ff;
