@@ -114,21 +114,18 @@ a {
 /* =======HERO======= */
 .hero-wrap {
   position: relative;
+  justify-content: center;
   background: var(--background-color);
   height: calc(100vh - 90px);
   display: flex;
   flex-direction: column;
 }
 
-.hero {
-  padding-top: 130px;
-}
-
-.hero .info {
+.hero-wrap .info {
   width: 51%;
 }
 
-.hero .sub-title {
+.hero-wrap .sub-title {
   font-weight: 500;
   font-size: 1.8rem;
   line-height: 1.5;
@@ -136,7 +133,7 @@ a {
   color: #687690;
 }
 
-.hero .title {
+.hero-wrap .title {
   margin-top: 8px;
   font-weight: 700;
   font-size: 6rem;
@@ -144,7 +141,7 @@ a {
   color: #000336;
 }
 
-.hero .desc {
+.hero-wrap .desc {
   margin-top: 30px;
   font-weight: 400;
   font-size: 1.8rem;
@@ -152,13 +149,13 @@ a {
   color: #5a6473;
 }
 
-.hero .info-btn {
+.hero-wrap .info-btn {
   display: inline-block;
   margin-top: 40px;
   min-width: 170px;
 }
 
-.hero .hero-img {
+.hero-wrap .hero-img {
   position: absolute;
   bottom: 0;
   right: calc((100vw - 1110px) / 2 - 100px);
