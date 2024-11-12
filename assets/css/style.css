@@ -55,16 +55,26 @@ a {
 /* ---------------- */
 
 /* =======HEADER======= */
-.header {
+.navbar-header {
+  background-color: var(--background-color);
+  padding-top: 26px;
+  position: sticky;
+  top: -26px;
+  z-index: 100;
+}
+.hero-wrap {
   position: relative;
   background: var(--background-color);
   height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .navbar {
   display: flex;
   align-items: center;
-  padding-top: 38px;
+  /* padding-top: 38px; */
+  padding: 12px 0;
 }
 
 .navbar ul {
@@ -105,7 +115,7 @@ a {
 /* =======HERO======= */
 
 .hero {
-  margin-top: 130px;
+  padding-top: 130px;
 }
 
 .hero .info {
