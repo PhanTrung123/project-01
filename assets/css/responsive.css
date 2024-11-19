@@ -98,7 +98,66 @@
   }
 
   .featured .featured-list {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
+  }
+
+  .stats .row {
+    flex-direction: column;
+  }
+
+  .stats .stats-img,
+  .stats .info {
+    width: 100%;
+  }
+
+  .stats .stats-img {
+    /* đảo vị trí phần tử  */
+    order: 2;
+    margin-top: 80px;
+  }
+
+  .stats .info {
+    order: 1;
+    padding: 0;
+    text-align: center;
+  }
+
+  .stats .info .sub-title {
+    width: 100%;
+  }
+
+  .stats .info .sub-title::before {
+    left: 50%;
+  }
+
+  .stats .info .desc {
+    width: 100%;
+  }
+
+  .stats .row-quatity {
+    flex-direction: row;
+  }
+
+  .stats .quantity {
+    font-size: 5rem;
+  }
+
+  .stats .quantity-desc {
+    font-size: 1.4rem;
+  }
+
+  .subcription .image {
+    display: none;
+  }
+
+  .footer .row-top {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 80px;
+    margin: 0 80px;
+  }
+
+  .footer .desc {
   }
 }
 
